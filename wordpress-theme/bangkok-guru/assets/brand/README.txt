@@ -1,0 +1,1 @@
+Original user-supplied Bangkok Guru logo. Two transparency variants derived from original foreground shape. Dark background retains white+royal blue; light background changes the white letter color to dark ink for contrast. The core logo paths/shapes are preserved. License remains with artwork owner.

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+<title id="title">Bangkok Guru travel sun emblem</title>
+<defs><linearGradient id="travel" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#1f5144"/><stop offset="1" stop-color="#176a83"/></linearGradient></defs>
+<rect width="200" height="200" rx="47" fill="url(#travel)"/>
+<circle cx="100" cy="82" r="35" fill="#f4b849"/>
+<path d="M24 135 L69 135 L69 101 L78 101 L78 84 L86 84 L86 71 L93 71 L93 55 L100 46 L107 55 L107 71 L114 71 L114 84 L122 84 L122 101 L131 101 L131 135 L175 135 L175 156 L24 156Z" fill="#f7f4e9" opacity=".96"/>
+<path d="M49 135 Q64 120 78 135 M120 135 Q140 119 155 135" fill="none" stroke="#216050" stroke-width="5"/>
+<path d="M24 163 Q71 142 107 163 T176 163" stroke="#f4b849" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>

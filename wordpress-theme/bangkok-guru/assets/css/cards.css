@@ -1,0 +1,32 @@
+/* Bangkok Guru · cards · conditional styles */
+.bg-card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:23px}
+.bg-trip-card{min-width:0;background:var(--bg-surface);border:1px solid var(--bg-line);border-radius:var(--bg-radius);overflow:hidden;box-shadow:0 12px 33px #17372b0b;transition:transform .2s}
+.bg-trip-card:hover{transform:translateY(-5px)}
+.bg-card-media{display:block;position:relative;height:245px;overflow:hidden;background:linear-gradient(148deg,#9ab8ac,#5f8c78 50%,#1c4a3c)}
+.bg-card-media img{height:100%;width:100%;object-fit:cover}
+.bg-card-placeholder{display:grid;height:100%;place-items:center;color:#efdb99;font-size:6rem;font-family:Georgia,serif}
+.bg-card-tag{position:absolute;left:18px;bottom:16px;background:#fff;color:#1d3c34;padding:7px 13px;border-radius:100px;font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;font-weight:800}
+.bg-card-body{padding:24px}
+.bg-card-body h3{font-size:1.48rem}
+.bg-card-body p{font-size:.9rem;color:var(--bg-muted);min-height:48px}
+.bg-card-bottom{border-top:1px solid var(--bg-line);padding-top:17px;display:flex;align-items:center;justify-content:space-between;font-weight:750}
+.bg-card-bottom>a{display:grid;place-items:center;border:1px solid var(--bg-line);width:38px;height:38px;border-radius:50%}
+:root[data-bg-theme="dark"] .bg-card-tag{background:#263d33;color:#e7eddc}
+@media (max-width:800px){.bg-card-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.bg-card-grid{grid-template-columns:1fr}}
+@media (max-width:560px){.bg-card-media{height:240px}}
+
+.bg-card-media{background:linear-gradient(148deg,#c6e5ff,#539ae1 50%,#164989)}
+.bg-card-placeholder{color:#e9f8ff}
+.bg-card-tag{background:#fff;color:#164885}
+:root[data-bg-theme="dark"] .bg-card-tag{background:#152e50;color:#c3e3ff}
+.bg-trip-card:hover{box-shadow:0 20px 55px #084baf1e}
+
+/* v0.11 · Accessible archive search & filters */
+.bg-archive-filters{display:grid;grid-template-columns:minmax(180px,1.4fr) minmax(160px,1fr) minmax(140px,.7fr) auto auto;align-items:end;gap:14px;background:var(--bg-surface);padding:22px;border:1px solid var(--bg-line);border-radius:var(--bg-radius);margin:18px 0 38px}
+.bg-archive-filters label{display:grid;gap:7px;font-weight:650;font-size:.88rem}
+.bg-archive-filters input{min-height:47px;width:100%;border:1px solid var(--bg-line);border-radius:11px;background:var(--bg-paper);color:var(--bg-ink);padding:10px 13px}
+.bg-archive-filters .bg-button{min-height:47px;white-space:nowrap}
+.bg-clear-filters{padding:11px;font-weight:650;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:960px){.bg-archive-filters{grid-template-columns:1fr 1fr}.bg-archive-filters .bg-button{width:100%}}
+@media(max-width:580px){.bg-archive-filters{grid-template-columns:1fr}}

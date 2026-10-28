@@ -1,0 +1,30 @@
+/* Bangkok Guru · form · conditional styles */
+.bg-booking-panel{background:var(--bg-surface);padding:32px;border:1px solid var(--bg-line);border-radius:var(--bg-radius);box-shadow:0 12px 48px #123e2a11}
+.bg-booking-panel h2{font-size:2rem}
+.bg-form{display:grid;gap:16px;margin-top:20px}
+.bg-form label{font-size:.81rem;font-weight:750;display:grid;gap:7px}
+.bg-form input,.bg-form textarea,.bg-form select{width:100%;border:1px solid var(--bg-line);color:var(--bg-ink);background:var(--bg-paper);border-radius:12px;padding:12px 13px;min-height:46px}
+.bg-form textarea{resize:vertical}
+.bg-form input:focus,.bg-form textarea:focus,.bg-form select:focus{outline:2px solid var(--bg-sun);outline-offset:1px}
+.bg-form-two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.bg-form-note{font-size:.73rem;color:var(--bg-muted);margin:3px 0 0}
+.bg-hidden-field{position:absolute!important;left:-99999px!important;width:1px;height:1px;overflow:hidden}
+.bg-notice{background:#dcead7;color:#243c32;padding:14px 25px;text-align:center}
+.bg-notice-error{background:#ffe3df;color:#722d1b}
+@media (max-width:560px){.bg-form-two{grid-template-columns:1fr}}
+@media (max-width:560px){.bg-booking-panel{padding:24px}}
+
+.bg-consent{display:flex!important;flex-direction:row!important;align-items:flex-start;gap:10px!important;font-weight:500!important}
+.bg-consent input[type="checkbox"]{width:18px;height:18px;min-height:18px;margin-top:3px;accent-color:#0854bc;flex:0 0 auto}
+.bg-consent a{color:var(--bg-forest);text-decoration:underline;text-underline-offset:3px}
+.bg-form input:focus,.bg-form textarea:focus,.bg-form select:focus{outline-color:#4a98ff}
+.bg-booking-panel{border-top:4px solid var(--bg-forest)}
+
+.bg-booking-summary{display:grid;gap:4px;padding:15px 17px;border:1px solid #b5d2fa;border-radius:12px;background:color-mix(in srgb,var(--bg-forest) 7%,var(--bg-surface));font-size:.82rem}
+.bg-booking-summary>strong{font-size:.9rem}
+.bg-booking-summary>small{color:var(--bg-muted)}
+
+/* v0.13 · Sample bookings are preview-only. */
+.bg-demo-booking{background:linear-gradient(135deg,var(--bg-surface),var(--bg-paper));border-top-color:#0b55b5}
+.bg-demo-booking .bg-demo-schedule{padding:15px 18px;border:1px solid var(--bg-line);border-radius:12px;margin:20px 0}
+.bg-demo-schedule ul{margin:8px 0 0 20px;line-height:1.9}

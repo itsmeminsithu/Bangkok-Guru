@@ -1,0 +1,42 @@
+/* Bangkok Guru · entry · conditional styles */
+.bg-page{padding-block:75px 115px;min-height:50vh}
+.bg-page-heading{max-width:900px;margin-bottom:54px}
+.bg-page-heading h1{font-size:clamp(3rem,6.6vw,6rem)}
+.bg-page-heading p{font-size:1.12rem;color:var(--bg-muted)}
+.bg-prose{max-width:min(100%,820px)}
+.bg-prose p{line-height:1.85}
+.bg-prose a:not(.bg-button){text-decoration:underline;text-underline-offset:4px}
+.bg-prose ul,.bg-prose ol{padding-inline-start:26px}
+.bg-prose img{border-radius:var(--bg-radius)}
+.bg-entry-hero{display:grid;grid-template-columns:1fr .95fr;gap:48px;padding-top:45px;padding-bottom:65px;align-items:center}
+.bg-entry-intro h1{font-size:clamp(3rem,6vw,6.2rem)}
+.bg-entry-visual{min-height:520px;border-radius:var(--bg-radius);background-image:var(--bg-featured,linear-gradient(132deg,#b6c8ac,#628a78 48%,#254b40));background-position:center;background-size:cover;display:flex;align-items:flex-end;padding:32px;overflow:hidden}
+.bg-visual-word{font:800 clamp(3rem,7vw,6rem)/.9 var(--bg-font-heading);letter-spacing:-.09em;color:white;text-shadow:0 5px 25px #0003}
+.bg-visual-word em{font-family:Georgia,serif;font-weight:400}
+.bg-back{display:inline-block;color:var(--bg-muted);margin-bottom:30px;font-size:.9rem}
+.bg-lead{font-size:1.18rem;color:var(--bg-muted)}
+.bg-entry-facts{display:flex;gap:22px;flex-wrap:wrap;font-size:.85rem;font-weight:750;margin-top:33px}
+.bg-entry-facts span{padding:10px 14px;border-radius:50px;background:var(--bg-surface);border:1px solid var(--bg-line)}
+.bg-entry-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(300px,1fr);gap:65px;align-items:start;padding-bottom:55px}
+.bg-entry-layout .bg-prose{max-width:none}
+.bg-entry-content{padding-block:30px}
+.bg-entry-section{margin-top:55px;padding-top:35px;border-top:1px solid var(--bg-line)}
+.bg-entry-section h2{font-size:2.4rem}
+.bg-detail-list{list-style:disc;padding-inline-start:25px}
+.bg-detail-list li{margin-bottom:16px}
+.bg-route-list{border-left:2px solid var(--bg-sun);padding-left:34px;list-style:decimal-leading-zero;counter-reset:none}
+.bg-route-list li{padding-bottom:23px;font-weight:650}
+.bg-entry-aside{position:sticky;top:125px}
+.bg-entry-story .bg-entry-layout{display:flex;flex-direction:column;gap:30px;max-width:930px}
+.bg-entry-story .bg-entry-aside{position:static;width:100%}
+.bg-entry-route .bg-entry-visual{background-position:center}
+.bg-entry-route .bg-entry-layout{grid-template-columns:1.5fr 1fr}
+.woocommerce-page .bg-page{max-width:var(--bg-width)}
+@media (max-width:1100px){.bg-entry-layout{gap:30px}}
+@media (max-width:800px){.bg-entry-layout,.bg-entry-route .bg-entry-layout{grid-template-columns:1fr}}
+@media (max-width:800px){.bg-entry-aside{position:static}}
+@media (max-width:800px){.bg-entry-visual{min-height:340px}}
+@media (max-width:560px){.bg-entry-intro h1{font-size:3.3rem}}
+
+.bg-entry-visual{background-image:var(--bg-featured,linear-gradient(132deg,#b4ddff,#69a4ed 45%,#164d93))}
+.bg-route-list{border-inline-start:2px solid var(--bg-forest);border-left:0;padding-inline-start:34px}
