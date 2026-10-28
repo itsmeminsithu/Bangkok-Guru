@@ -1,0 +1,678 @@
+{
+  "homepages": {
+    "travel": {
+      "name": "Curated Journeys",
+      "headline": "Go further. Feel closer.",
+      "eyebrow": "BANGKOK GURU · JOURNEYS WITH A POINT OF VIEW",
+      "sub": "Thoughtfully imagined journeys, local perspectives and unforgettable places across Thailand. Discover more at your pace.",
+      "cta": "Browse journeys",
+      "cover": "chiang-mai"
+    },
+    "daylight": {
+      "name": "Day Experiences",
+      "headline": "More adventure in a day.",
+      "eyebrow": "BANGKOK GURU · DAY EXPERIENCES",
+      "sub": "Markets, neighbourhoods, riversides and the little details that turn a free day into a favourite memory.",
+      "cta": "See day experiences",
+      "cover": "floating-market"
+    },
+    "immersive": {
+      "name": "Destinations & Stories",
+      "headline": "Every place tells a story.",
+      "eyebrow": "BANGKOK GURU · DISCOVER THAILAND",
+      "sub": "From Bangkok lanes to the northern mountains and island coasts, find a place that stays with you.",
+      "cta": "Explore destinations",
+      "cover": "ayutthaya"
+    },
+    "departures": {
+      "name": "Scheduled Departures",
+      "headline": "Your next chapter starts here.",
+      "eyebrow": "BANGKOK GURU · PLAN YOUR NEXT TRIP",
+      "sub": "Explore sample departures, find your favourite route and create a trip that fits your own travel style.",
+      "cta": "View trips",
+      "cover": "andaman-coast"
+    }
+  },
+  "pages": [
+    {
+      "slug": "about-bangkok-guru",
+      "title": "About Bangkok Guru",
+      "content": "<h2>Travel with curiosity</h2><p>Bangkok Guru is a sample travel experience website built to show how journeys, destinations and day experiences can be presented in one beautiful place. This demonstration is not a licensed tour offer and does not confirm that a departure, transfer or guide is available.</p><h3>A thoughtful way to explore</h3><p>We believe an excellent trip gives you time to be curious. The details matter: a comfortable route, clear information and space for moments that are not on a checklist.</p><h3>Make it yours</h3><p>Browse the sample routes, discover a destination, or use the tailor-made enquiry form to share ideas. Replace this entire page with your company story, credentials and operational details before going live.</p>"
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Bangkok Guru",
+      "content": "<h2>Tell us what you have in mind</h2><p>Whether you have a destination in mind or are simply exploring possibilities, send a message below. This form is intended for demonstration and local testing until your business contact details and privacy policy are configured.</p>[bangkok_guru_enquiry]"
+    },
+    {
+      "slug": "tailor-made",
+      "title": "Plan Your Own Trip",
+      "content": "<h2>Every journey starts with an idea</h2><p>Where would you like to go? Tell us the places, dates and pace you are imagining. You can use the form to preview the enquiry workflow. This demo does not represent a confirmed booking.</p>[bangkok_guru_enquiry type=\"tailor\"]"
+    },
+    {
+      "slug": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "content": "<h2>Good questions before a great trip</h2><h3>Are these tours available to book?</h3><p>No. The example trips and indicative prices are sample content until the site owner replaces them with verified offers and explicitly enables bookings.</p><h3>Can I customise my trip?</h3><p>Yes. The tailor-made form lets visitors describe a preferred schedule. Actual fulfillment depends on the business operating this website.</p><h3>When is the balance due?</h3><p>Each live journey has its own deposit and balance payment date. These are displayed once dates and prices have been confirmed.</p><h3>Is the sample price final?</h3><p>No. Sample prices are illustrative only and not an offer to sell.</p>"
+    },
+    {
+      "slug": "travel-journal",
+      "title": "Travel Journal",
+      "content": "<h2>Stories for the journey</h2><p>Ideas, routes and gentle reminders for discovering more of Thailand. This page is editable in the WordPress editor.</p>"
+    }
+  ],
+  "stories": [
+    {
+      "slug": "bangkok-48-hour-notes",
+      "title": "48 Hours in Bangkok: a Slower Itinerary",
+      "excerpt": "Two days of riverside walks, leafy lanes and moments away from the usual rush.",
+      "content": "<p>The best way to discover Bangkok is to make space for the unexpected. Begin with the river, where neighbourhoods change character every few stops. Leave a late afternoon free for a long walk, a view and an unhurried meal.</p><h2>First day: the river</h2><p>Use the river as a guide to the city. A route that connects heritage streets with waterfront views is an easy way to enjoy different neighbourhoods without fitting too much into a day.</p><h2>Second day: take it slowly</h2><p>Explore a local market, pause for coffee, and leave enough time to enjoy a neighbourhood more than once. Check opening hours and local transport arrangements before setting out.</p>"
+    },
+    {
+      "slug": "ayutthaya-heritage-guide",
+      "title": "A Gentle Guide to Ayutthaya",
+      "excerpt": "Ideas for seeing heritage landscapes without rushing from stop to stop.",
+      "content": "<p>Ayutthaya rewards travellers who plan fewer stops and spend more time at each one. Start earlier in the day, bring water and dress appropriately for cultural and religious sites.</p><h2>Build your own route</h2><p>Choose a manageable cluster of historic sites, take a break near the river and save the final light of the day for a relaxed view. Verify current admission policies locally.</p>"
+    },
+    {
+      "slug": "chiang-mai-slow-mornings",
+      "title": "Slow Mornings in Chiang Mai",
+      "excerpt": "Northern café culture, craft shops and mountain views for a calmer travel rhythm.",
+      "content": "<p>A quieter morning can change the way a city feels. In Chiang Mai, a short neighbourhood walk followed by a local café is often as memorable as the headline attraction.</p><h2>Take your time</h2><p>Explore nearby streets, visit a market and plan an afternoon with flexible timing. Mountain visibility and weather can change, so verify the best season for your route.</p>"
+    }
+  ],
+  "items": [
+    {
+      "type": "bg_journey",
+      "title": "Bangkok After Dark",
+      "slug": "bangkok-after-dark",
+      "subtitle": "A gentle evening route through riverside stories, design-led neighbourhoods and illuminated landmarks.",
+      "location": "Bangkok",
+      "duration": "2 days / 1 night",
+      "price": 5900,
+      "deposit": 30,
+      "cover": "bangkok-river",
+      "highlights": [
+        "Slow-paced heritage neighbourhood walks",
+        "Golden-hour views along the Chao Phraya",
+        "Evening street-food inspiration",
+        "Small-group concept itinerary"
+      ],
+      "route": [
+        "Day 1 — Arrive, settle in and explore the historic riverside",
+        "Day 1 — Sunset ferry views and evening food discoveries",
+        "Day 2 — Old Town cafés, architecture and local shops"
+      ],
+      "included": [
+        "Illustrative guided walking route",
+        "Suggested neighbourhood stops",
+        "Planning support"
+      ],
+      "excluded": [
+        "Accommodation and flights",
+        "Food, transport and attraction fees unless confirmed"
+      ],
+      "days": [
+        25,
+        53,
+        88
+      ],
+      "layout": "story"
+    },
+    {
+      "type": "bg_journey",
+      "title": "Northern Green Escape",
+      "slug": "northern-green-escape",
+      "subtitle": "Unhurried days shaped by mountain views, morning markets and tea-growing landscapes.",
+      "location": "Chiang Mai · Chiang Rai",
+      "duration": "4 days / 3 nights",
+      "price": 14900,
+      "deposit": 30,
+      "cover": "chiang-mai",
+      "highlights": [
+        "Mountain viewpoints and relaxed mornings",
+        "Local food and craft stops",
+        "Tea-country inspiration",
+        "Flexible time to explore independently"
+      ],
+      "route": [
+        "Day 1 — Chiang Mai arrival and Old City walk",
+        "Day 2 — Countryside scenery and creative communities",
+        "Day 3 — Northern viewpoints and tea-inspired stops",
+        "Day 4 — Slow breakfast and departure"
+      ],
+      "included": [
+        "Illustrative itinerary planning",
+        "Destination research notes"
+      ],
+      "excluded": [
+        "Flights, lodging, transfers and meals unless expressly confirmed"
+      ],
+      "days": [
+        33,
+        64,
+        101
+      ],
+      "layout": "route"
+    },
+    {
+      "type": "bg_journey",
+      "title": "Thailand Southbound",
+      "slug": "thailand-southbound",
+      "subtitle": "A warm-weather travel concept pairing island horizons, coastal walks and easy unplanned moments.",
+      "location": "Phuket · Andaman Coast",
+      "duration": "5 days / 4 nights",
+      "price": 21900,
+      "deposit": 25,
+      "cover": "andaman-coast",
+      "highlights": [
+        "Coastal viewpoints and quiet beaches",
+        "Optional island and boat experiences",
+        "Free time to discover local cafés",
+        "Coastal sunset photo stops"
+      ],
+      "route": [
+        "Day 1 — Arrive and explore the old quarter",
+        "Day 2 — Coastal viewpoints and beach walk",
+        "Day 3 — Optional water-based excursion",
+        "Day 4 — Choose your own pace by the sea",
+        "Day 5 — Farewell breakfast and departure"
+      ],
+      "included": [
+        "Sample itinerary and preparation notes"
+      ],
+      "excluded": [
+        "Flights and hotel stays",
+        "Boat services subject to weather",
+        "Personal spending"
+      ],
+      "days": [
+        42,
+        77,
+        115
+      ],
+      "layout": "column"
+    },
+    {
+      "type": "bg_journey",
+      "title": "River & Heritage Trail",
+      "slug": "river-heritage-trail",
+      "subtitle": "A thoughtful short break through old capitals, river towns and cultural landscapes.",
+      "location": "Ayutthaya · Kanchanaburi",
+      "duration": "3 days / 2 nights",
+      "price": 9900,
+      "deposit": 30,
+      "cover": "ayutthaya",
+      "highlights": [
+        "Historic temple landscapes",
+        "Riverfront towns and slower travel",
+        "Early morning light and scenic stops"
+      ],
+      "route": [
+        "Day 1 — Journey to Ayutthaya and heritage area",
+        "Day 2 — Travel west to riverside landscapes",
+        "Day 3 — Local breakfast and return"
+      ],
+      "included": [
+        "Illustrative route outline",
+        "Optional sightseeing checklist"
+      ],
+      "excluded": [
+        "Tickets and privately booked transport",
+        "Lodging and personal expenses"
+      ],
+      "days": [
+        29,
+        61,
+        93
+      ],
+      "layout": "route"
+    },
+    {
+      "type": "bg_journey",
+      "title": "Chiang Rai Slow Days",
+      "slug": "chiang-rai-slow-days",
+      "subtitle": "A mountain escape built around cool mornings, art spaces and green tea landscapes.",
+      "location": "Chiang Rai",
+      "duration": "3 days / 2 nights",
+      "price": 10400,
+      "deposit": 30,
+      "cover": "chiang-rai",
+      "highlights": [
+        "Northern landscapes",
+        "Art and architecture inspiration",
+        "Unhurried local café stops"
+      ],
+      "route": [
+        "Day 1 — Arrival, town walk and local market",
+        "Day 2 — Mountain and tea-country perspectives",
+        "Day 3 — Brunch and onward journey"
+      ],
+      "included": [
+        "Suggested travel rhythm",
+        "Editorial stop descriptions"
+      ],
+      "excluded": [
+        "Accommodation",
+        "Local admissions and meals"
+      ],
+      "days": [
+        35,
+        72,
+        118
+      ],
+      "layout": "story"
+    },
+    {
+      "type": "bg_journey",
+      "title": "Bangkok to Nature",
+      "slug": "bangkok-to-nature",
+      "subtitle": "Three days balancing city energy with green river landscapes and a slower pace.",
+      "location": "Bangkok · Kanchanaburi",
+      "duration": "3 days / 2 nights",
+      "price": 11900,
+      "deposit": 35,
+      "cover": "kanchanaburi",
+      "highlights": [
+        "City-to-countryside transition",
+        "River and forest scenery",
+        "Space for rest and discovery"
+      ],
+      "route": [
+        "Day 1 — Bangkok arrival and highlights",
+        "Day 2 — Travel to river scenery and nature stops",
+        "Day 3 — Return via a local town"
+      ],
+      "included": [
+        "Illustrative itinerary and packing guidance"
+      ],
+      "excluded": [
+        "Transport and lodging unless confirmed",
+        "Meals and entrance fees"
+      ],
+      "days": [
+        48,
+        82,
+        125
+      ],
+      "layout": "column"
+    },
+    {
+      "type": "bg_destination",
+      "title": "Old Bangkok & Riverside",
+      "slug": "old-bangkok-riverside",
+      "subtitle": "A neighbourhood-by-neighbourhood guide to the lanes, river boats and everyday rhythms of the capital.",
+      "location": "Bangkok",
+      "duration": "Destination guide",
+      "price": 0,
+      "deposit": 0,
+      "cover": "bangkok-river",
+      "highlights": [
+        "Historic riverside neighbourhoods",
+        "Café and market ideas",
+        "Self-guided walking routes"
+      ],
+      "route": [
+        "Explore neighbourhood character",
+        "Plan a riverside ferry route",
+        "Choose a sunset viewpoint"
+      ],
+      "included": [
+        "Travel inspiration and practical notes"
+      ],
+      "excluded": [
+        "Activities booked separately"
+      ],
+      "days": [],
+      "layout": "story"
+    },
+    {
+      "type": "bg_destination",
+      "title": "Ayutthaya Heritage",
+      "slug": "ayutthaya-heritage",
+      "subtitle": "Ancient brick stupas, riverside heritage and the remarkable history of Thailand’s former capital.",
+      "location": "Ayutthaya",
+      "duration": "Destination guide",
+      "price": 0,
+      "deposit": 0,
+      "cover": "ayutthaya",
+      "highlights": [
+        "Heritage sites",
+        "Morning photo opportunities",
+        "Simple day-trip planning"
+      ],
+      "route": [
+        "Choose two or three historic zones",
+        "Leave time for rest in the midday heat",
+        "Finish by the river"
+      ],
+      "included": [
+        "Travel inspiration and practical notes"
+      ],
+      "excluded": [
+        "Activities booked separately"
+      ],
+      "days": [],
+      "layout": "story"
+    },
+    {
+      "type": "bg_destination",
+      "title": "Chiang Mai Old City",
+      "slug": "chiang-mai-old-city",
+      "subtitle": "A guide to quiet lanes, neighbourhood cafés, old gates and relaxed northern days.",
+      "location": "Chiang Mai",
+      "duration": "Destination guide",
+      "price": 0,
+      "deposit": 0,
+      "cover": "old-town",
+      "highlights": [
+        "Old City architecture",
+        "Neighbourhood markets",
+        "Craft and café culture"
+      ],
+      "route": [
+        "Walk at your own pace",
+        "Visit local shops",
+        "Explore after dark"
+      ],
+      "included": [
+        "Travel inspiration and practical notes"
+      ],
+      "excluded": [
+        "Activities booked separately"
+      ],
+      "days": [],
+      "layout": "story"
+    },
+    {
+      "type": "bg_destination",
+      "title": "Chiang Rai Tea Country",
+      "slug": "chiang-rai-tea-country",
+      "subtitle": "Forest-covered ridgelines, creative spaces and mountain landscapes in the far north.",
+      "location": "Chiang Rai",
+      "duration": "Destination guide",
+      "price": 0,
+      "deposit": 0,
+      "cover": "chiang-rai",
+      "highlights": [
+        "Tea landscapes",
+        "Art spaces",
+        "Mountain viewpoints"
+      ],
+      "route": [
+        "Check seasonal weather",
+        "Plan shorter transfers",
+        "Leave room for stops"
+      ],
+      "included": [
+        "Travel inspiration and practical notes"
+      ],
+      "excluded": [
+        "Activities booked separately"
+      ],
+      "days": [],
+      "layout": "story"
+    },
+    {
+      "type": "bg_destination",
+      "title": "Kanchanaburi Riverlands",
+      "slug": "kanchanaburi-riverlands",
+      "subtitle": "Quiet rivers, green scenery and reflective trips beyond the city.",
+      "location": "Kanchanaburi",
+      "duration": "Destination guide",
+      "price": 0,
+      "deposit": 0,
+      "cover": "kanchanaburi",
+      "highlights": [
+        "Riverside settings",
+        "Scenic walks",
+        "History and reflection"
+      ],
+      "route": [
+        "Choose a river district",
+        "Consider historical context",
+        "End with a quiet view"
+      ],
+      "included": [
+        "Travel inspiration and practical notes"
+      ],
+      "excluded": [
+        "Activities booked separately"
+      ],
+      "days": [],
+      "layout": "story"
+    },
+    {
+      "type": "bg_destination",
+      "title": "Phuket & The Andaman",
+      "slug": "phuket-andaman",
+      "subtitle": "A colourful southern island where old-town streets meet broad horizons and turquoise water.",
+      "location": "Phuket",
+      "duration": "Destination guide",
+      "price": 0,
+      "deposit": 0,
+      "cover": "phuket",
+      "highlights": [
+        "Old Town heritage",
+        "Beach views",
+        "Coastal dining ideas"
+      ],
+      "route": [
+        "Explore heritage streets",
+        "Pick a suitable swimming beach",
+        "Check sea conditions"
+      ],
+      "included": [
+        "Travel inspiration and practical notes"
+      ],
+      "excluded": [
+        "Activities booked separately"
+      ],
+      "days": [],
+      "layout": "story"
+    },
+    {
+      "type": "bg_experience",
+      "title": "Bangkok Canal & Community Walk",
+      "slug": "bangkok-canal-community-walk",
+      "subtitle": "A slower lens on Bangkok through canals, local scenes and craft neighbourhoods.",
+      "location": "Bangkok",
+      "duration": "Half day",
+      "price": 1900,
+      "deposit": 0,
+      "cover": "canal",
+      "highlights": [
+        "Neighbourhood canal scenery",
+        "Everyday local culture",
+        "Flexible walk pacing"
+      ],
+      "route": [
+        "Meet near a transport hub",
+        "Explore a waterside lane",
+        "Finish at a local café"
+      ],
+      "included": [
+        "Planning notes and a sample route"
+      ],
+      "excluded": [
+        "Food, local transport and admissions",
+        "Subject to conditions and availability"
+      ],
+      "days": [
+        18,
+        45,
+        80
+      ],
+      "layout": "column"
+    },
+    {
+      "type": "bg_experience",
+      "title": "Old Town Street Food Trail",
+      "slug": "old-town-street-food-trail",
+      "subtitle": "Discover the flavours and stories that make Bangkok neighbourhoods memorable.",
+      "location": "Bangkok",
+      "duration": "Evening · 3 hours",
+      "price": 2400,
+      "deposit": 0,
+      "cover": "street-food",
+      "highlights": [
+        "Food-stall inspiration",
+        "Market alleys",
+        "Local eating etiquette"
+      ],
+      "route": [
+        "Start before evening rush",
+        "Sample a route of local favourites",
+        "End near public transport"
+      ],
+      "included": [
+        "Planning notes and a sample route"
+      ],
+      "excluded": [
+        "Food, local transport and admissions",
+        "Subject to conditions and availability"
+      ],
+      "days": [
+        18,
+        45,
+        80
+      ],
+      "layout": "column"
+    },
+    {
+      "type": "bg_experience",
+      "title": "Ayutthaya Heritage Day",
+      "slug": "ayutthaya-heritage-day",
+      "subtitle": "A relaxed introduction to historic landscapes, river viewpoints and temple architecture.",
+      "location": "Ayutthaya",
+      "duration": "1 day",
+      "price": 3300,
+      "deposit": 0,
+      "cover": "ayutthaya",
+      "highlights": [
+        "Heritage scenery",
+        "Riverside photography",
+        "Time for breaks"
+      ],
+      "route": [
+        "Morning heritage sites",
+        "Lunch and riverside views",
+        "Afternoon viewpoint stop"
+      ],
+      "included": [
+        "Planning notes and a sample route"
+      ],
+      "excluded": [
+        "Food, local transport and admissions",
+        "Subject to conditions and availability"
+      ],
+      "days": [
+        18,
+        45,
+        80
+      ],
+      "layout": "column"
+    },
+    {
+      "type": "bg_experience",
+      "title": "Bangkok Markets & Makers",
+      "slug": "bangkok-markets-makers",
+      "subtitle": "A colourful introduction to neighbourhood commerce, maker spaces and local design.",
+      "location": "Bangkok",
+      "duration": "Half day",
+      "price": 2100,
+      "deposit": 0,
+      "cover": "floating-market",
+      "highlights": [
+        "Market exploration",
+        "Local craft inspiration",
+        "Creative neighbourhoods"
+      ],
+      "route": [
+        "Gather at an easy meeting point",
+        "Browse a neighbourhood market",
+        "Stop for refreshments"
+      ],
+      "included": [
+        "Planning notes and a sample route"
+      ],
+      "excluded": [
+        "Food, local transport and admissions",
+        "Subject to conditions and availability"
+      ],
+      "days": [
+        18,
+        45,
+        80
+      ],
+      "layout": "column"
+    },
+    {
+      "type": "bg_experience",
+      "title": "Chiang Mai Coffee & Craft",
+      "slug": "chiang-mai-coffee-craft",
+      "subtitle": "A gentle city experience exploring contemporary northern creativity and neighbourhood cafés.",
+      "location": "Chiang Mai",
+      "duration": "Half day",
+      "price": 1800,
+      "deposit": 0,
+      "cover": "old-town",
+      "highlights": [
+        "Local café culture",
+        "Creative studios",
+        "Old City lanes"
+      ],
+      "route": [
+        "Meet at a central café",
+        "Explore creative lanes",
+        "Finish with free time"
+      ],
+      "included": [
+        "Planning notes and a sample route"
+      ],
+      "excluded": [
+        "Food, local transport and admissions",
+        "Subject to conditions and availability"
+      ],
+      "days": [
+        18,
+        45,
+        80
+      ],
+      "layout": "column"
+    },
+    {
+      "type": "bg_experience",
+      "title": "Coastal Sunset Walk",
+      "slug": "phuket-coastal-sunset-walk",
+      "subtitle": "Easy seaside walking ideas, coastal textures and a softer end to the day.",
+      "location": "Phuket",
+      "duration": "Evening · 2 hours",
+      "price": 1600,
+      "deposit": 0,
+      "cover": "phuket",
+      "highlights": [
+        "Coastal views",
+        "Photography time",
+        "A slow sunset"
+      ],
+      "route": [
+        "Choose a safe viewpoint",
+        "Stroll at a relaxed pace",
+        "Enjoy the evening light"
+      ],
+      "included": [
+        "Planning notes and a sample route"
+      ],
+      "excluded": [
+        "Food, local transport and admissions",
+        "Subject to conditions and availability"
+      ],
+      "days": [
+        18,
+        45,
+        80
+      ],
+      "layout": "column"
+    }
+  ]
+}

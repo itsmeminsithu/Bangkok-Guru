@@ -1,0 +1,10 @@
+<?php if ( ! defined('ABSPATH') ) { exit; } ?>
+<footer class="bg-footer"><div class="bg-container">
+  <div class="bg-footer-grid">
+    <div><div class="bg-footer-brand"><?php if(has_custom_logo()) { echo wp_get_attachment_image(get_theme_mod('custom_logo'),'medium',false,array('class'=>'bg-footer-custom-logo','alt'=>get_bloginfo('name'))); } else { ?><img class="bg-footer-original" src="<?php echo esc_url(BG_URI.'/assets/brand/bangkok-guru-logo-dark.png'); ?>" alt="Bangkok Guru" width="200" height="130"><?php } ?></div><p><?php echo esc_html(get_theme_mod('bg_footer_intro','Beautiful journeys, thoughtfully planned. Discover Thailand with a little more curiosity.')); ?></p><span class="bg-footer-developer">Theme developed by <a href="https://minsithu.org" rel="noopener noreferrer" target="_blank">Min SiThu (itsmeminsithu)</a></span></div>
+    <div><h3><?php esc_html_e('Explore','bangkok-guru'); ?></h3><a href="<?php echo esc_url(get_post_type_archive_link('bg_journey')); ?>">Journeys</a><a href="<?php echo esc_url(get_post_type_archive_link('bg_destination')); ?>">Destinations</a><a href="<?php echo esc_url(get_post_type_archive_link('bg_experience')); ?>">Day Experiences</a></div>
+    <div><h3><?php esc_html_e('Get in touch','bangkok-guru'); ?></h3><a href="<?php echo esc_url(home_url('/contact/')); ?>">Contact</a><a href="<?php echo esc_url(home_url('/tailor-made/')); ?>">Tailor-made trips</a><?php if(get_privacy_policy_url()): ?><a href="<?php echo esc_url(get_privacy_policy_url()); ?>">Privacy</a><?php endif; ?></div>
+    <div><h3><?php esc_html_e('A note from Bangkok','bangkok-guru'); ?></h3><p><?php echo esc_html(get_theme_mod('bg_footer_note','Go somewhere new. Come back with a story.')); ?></p><a href="https://minsithu.org" target="_blank" rel="noopener noreferrer">minsithu.org ↗</a></div>
+  </div><div class="bg-footer-bottom"><span>© <?php echo esc_html(wp_date('Y')); ?> Bangkok Guru</span><span><?php esc_html_e('Independent WordPress theme · Thailand','bangkok-guru'); ?></span></div>
+</div></footer>
+<?php wp_footer(); ?></body></html>
