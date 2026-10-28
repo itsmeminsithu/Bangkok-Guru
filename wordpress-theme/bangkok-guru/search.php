@@ -1,0 +1,1 @@
+<?php get_header(); ?><main id="main" class="bg-container bg-page"><div class="bg-page-heading"><h1><?php printf(esc_html__('Results for: %s','bangkok-guru'), esc_html(get_search_query())); ?></h1></div><div class="bg-card-grid"><?php while(have_posts()) { the_post(); bg_card(get_the_ID()); } ?></div><?php bg_pagination(); ?></main><?php get_footer(); ?>

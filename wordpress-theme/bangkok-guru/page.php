@@ -1,0 +1,1 @@
+<?php get_header(); ?><main id="main" class="bg-container bg-page bg-prose"><?php while(have_posts()) { the_post(); ?><div class="bg-page-heading"><span class="bg-eyebrow">BANGKOK GURU</span><h1><?php the_title(); ?></h1></div><?php the_content(); wp_link_pages(); } ?></main><?php get_footer(); ?>

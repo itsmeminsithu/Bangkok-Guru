@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {"contentSize":"840px","wideSize":"1240px"},
+    "color": {"palette":[
+      {"slug":"ink","name":"Ink / Text","color":"#182339"},
+      {"slug":"paper","name":"Paper","color":"#f7f9fe"},
+      {"slug":"surface","name":"Surface","color":"#ffffff"},
+      {"slug":"forest","name":"Primary Brand","color":"#0854bc"},
+      {"slug":"sun","name":"Accent","color":"#67b7ff"},
+      {"slug":"muted","name":"Muted Text","color":"#596b84"},
+      {"slug":"line","name":"Borders","color":"#e1e9f4"},
+      {"slug":"night","name":"Dark Surface","color":"#101d32"}
+    ]},
+    "typography": {"fontFamilies":[
+      {"slug":"system","name":"System Sans","fontFamily":"-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif"},
+      {"slug":"serif","name":"Editorial Serif","fontFamily":"Georgia,Times New Roman,serif"},
+      {"slug":"mono","name":"Monospace","fontFamily":"ui-monospace,Consolas,monospace"}
+    ]}
+  }
+}
