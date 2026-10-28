@@ -1,0 +1,21 @@
+/* Bangkok Guru Bookings: isolated responsive components, user-editable brand tokens */
+.bgx-search,.bgx-dashboard,.bgx-reviews{max-width:1240px;margin:clamp(24px,5vw,70px) auto;padding:clamp(20px,3vw,36px);color:var(--bg-ink,#1c2638);background:var(--bg-surface,#fff);border:1px solid rgba(30,63,103,.12);border-radius:var(--bg-radius,22px)}
+.bgx-search h2,.bgx-dashboard h2,.bgx-reviews h2{font-size:clamp(1.6rem,3vw,2.2rem);margin:0 0 24px}
+.bgx-search-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(158px,1fr));gap:14px;align-items:end;margin-bottom:32px}
+.bgx-search-form label,.bgx-dashboard label,.bgx-reviews label{font-size:.9rem;font-weight:650;display:flex;flex-direction:column;gap:7px}
+.bgx-search input,.bgx-dashboard input,.bgx-reviews select,.bgx-reviews textarea{width:100%;min-height:45px;padding:10px 12px;background:var(--bg-surface,#fff);color:var(--bg-ink,#1c2638);border:1px solid rgba(55,87,123,.26);border-radius:12px;box-sizing:border-box}
+.bgx-search-form .bgx-check{flex-direction:row;align-items:center;gap:8px}.bgx-search-form input[type="checkbox"]{width:auto;min-height:0}
+.bgx-search button,.bgx-dashboard button,.bgx-reviews button,.bgx-pay{border:0;border-radius:12px;background:#0854bc;color:#fff!important;padding:13px 16px;cursor:pointer;font-weight:700;display:inline-block;text-decoration:none}
+.bgx-search button:hover,.bgx-dashboard button:hover,.bgx-reviews button:hover{background:#063d91}
+.bgx-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:18px}
+.bgx-result,.bgx-booking,.bgx-review{background:var(--bg-card,#f7f9fe);border:1px solid rgba(45,85,136,.14);border-radius:17px;padding:20px;overflow:hidden}
+.bgx-result{padding:0}.bgx-result>img{width:100%;height:185px;object-fit:cover}.bgx-result>div{padding:20px}.bgx-result h3{font-size:1.2rem;margin:6px 0 9px}.bgx-result a{color:var(--bg-link,#0854bc)}
+.bgx-pager{display:flex;gap:8px;margin-top:25px}.bgx-pager a{padding:8px 11px;border:1px solid #aabbd0;border-radius:8px}.bgx-pager a[aria-current="page"]{background:#0854bc;color:#fff}
+.bgx-dashboard .bgx-booking{margin-bottom:15px}.bgx-booking-heading{display:flex;gap:15px;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.bgx-booking-heading h3{margin:0}.bgx-status{background:#e2efff;border-radius:22px;padding:4px 12px;color:#08469c;font-size:.85rem;font-weight:700}
+.bgx-booking dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px}.bgx-booking dt{font-size:.8rem;opacity:.72}.bgx-booking dd{font-weight:700;margin:3px 0 0}
+.bgx-guest{margin-top:35px;padding-top:18px;border-top:1px solid #dde3ed}.bgx-guest form{display:flex;gap:14px;flex-wrap:wrap;align-items:end}.bgx-guest label{flex:1 1 200px}
+.bgx-reviews .bgx-review{margin:12px 0}.bgx-review small{color:#1765aa}.bgx-reviews form{display:grid;gap:13px;max-width:700px}.bgx-reviews textarea{min-height:125px;resize:vertical}
+.bgx-search :focus-visible,.bgx-dashboard :focus-visible,.bgx-reviews :focus-visible{outline:3px solid #2775d0;outline-offset:3px}
+@media(max-width:650px){.bgx-search,.bgx-dashboard,.bgx-reviews{margin:20px 12px;padding:20px 15px}.bgx-search-form{grid-template-columns:1fr 1fr}.bgx-search-form button{grid-column:1/-1}}
+[dir="rtl"] .bgx-search,[dir="rtl"] .bgx-dashboard,[dir="rtl"] .bgx-reviews{text-align:right}
