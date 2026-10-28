@@ -1,0 +1,11 @@
+.DS_Store
+local/.env
+local/.env.*
+!local/.env.example
+**/.idea/
+**/.vscode/
+**/.phpunit.result.cache
+*.log
+node_modules/
+vendor/
+*.zip

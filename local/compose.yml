@@ -1,0 +1,62 @@
+# Local development ONLY. Never expose this stack to the public internet.
+services:
+  db:
+    image: mariadb:11.4
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: wordpress
+      MARIADB_USER: wordpress
+      MARIADB_PASSWORD: ${DB_PASSWORD}
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "healthcheck.sh --connect --innodb_initialized"]
+      interval: 8s
+      timeout: 5s
+      retries: 15
+  wordpress:
+    image: wordpress:php8.3-apache
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${WORDPRESS_PORT:-8188}:80"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_ENVIRONMENT_TYPE', 'local');
+        define('BGX_SANDBOX', true);
+    volumes: &wp_volumes
+      - wp_data:/var/www/html
+      - ../wordpress-theme/bangkok-guru:/var/www/html/wp-content/themes/bangkok-guru:ro
+      - ../wordpress-plugin/bangkok-guru-bookings:/var/www/html/wp-content/plugins/bangkok-guru-bookings:ro
+      - ./mu-plugins:/var/www/html/wp-content/mu-plugins:ro
+  wpcli:
+    image: wordpress:cli-php8.3
+    profiles: ["tools"]
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - wp_data:/var/www/html
+      - ../wordpress-theme/bangkok-guru:/var/www/html/wp-content/themes/bangkok-guru:ro
+      - ../wordpress-plugin/bangkok-guru-bookings:/var/www/html/wp-content/plugins/bangkok-guru-bookings:ro
+      - ../tests:/bg-tests:ro
+  mailpit:
+    image: axllent/mailpit:v1.21
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${MAILPIT_PORT:-8189}:8025"
+volumes:
+  wp_data:
+  db_data:
